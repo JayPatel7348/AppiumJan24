@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Appium1.AppiumTest.ViewText">
+      <class name="com.Appium1.AppiumTest.Swipe">
         <methods>
-          <include name="viewTest"/>
           <include name="configureAppium"/>
+          <include name="swipeTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Appium1.AppiumTest.ViewText -->
+      </class> <!-- com.Appium1.AppiumTest.Swipe -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
